@@ -1,0 +1,49 @@
+.cmp-alarmclock {
+    &__container {
+        position: relative;
+        margin: auto;
+        height: 20vw;
+        /*to make the height and width responsive*/
+        width: 20vw;
+        /*setting our background image*/
+        background: url("../img/alarm-clock.svg") no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    &__hand {
+        position: absolute;
+        transform-origin: bottom;
+
+        &--hour {
+            width: 4%;
+            height: 18%;
+            top: 43%;
+            left: 48.25%;
+            background: url(../img/hour-hand.svg) no-repeat;
+            background-size: contain;
+            background-position: 50%;
+        }
+
+        &--minute {
+            width: 4%;
+            height: 21%;
+            top: 40%;
+            left: 48.25%;
+            background: url(../img/minute-hand.svg) no-repeat;
+            background-size: contain;
+            background-position: 50%;
+        }
+
+        &--second {
+            width: 6%;
+            height: 31%;
+            top: 38%;
+            left: 47.25%;
+            background: url(../img/second-hand.svg) no-repeat;
+            background-size: contain;
+            background-position: 50%;
+            transform-origin: 50% 73%;
+        }
+    }
+}

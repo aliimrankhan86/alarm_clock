@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Alarm Clock</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
+  <script type="module" src="assets/js/bundle.min.js"></script>
+</head>
+<body>
+    <!-- Usinf BEM notation as AEM Leverages the same -->
+    <div class="cmp-alarmclock">
+        <div id="clockContainer" class="cmp-alarmclock__container">
+            <div id="hour" class="cmp-alarmclock__hand cmp-alarmclock__hand--hour"></div>
+            <div id="minute" class="cmp-alarmclock__hand cmp-alarmclock__hand--minute"></div>
+            <div id="second" class="cmp-alarmclock__hand cmp-alarmclock__hand--second"></div>
+        </div>
+    <!-- TODO update the markup in case we do need to add dialines -->
+    <!-- <div class="cmp-alarmclock__diallines"></div> -->
+    </div>
+</body>
+</html>
